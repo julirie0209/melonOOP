@@ -11,9 +11,11 @@ public class MelonsApplication {
 		
 		SalesPeople jane = new SalesPeople();
 		System.out.println(jane.calculateMonthlyPay(500000));
+		System.out.println(jane.getBaseSalary());
 		
 		InternSalesPeople jake = new InternSalesPeople();
 		System.out.println(jake.calculateMonthlyPay(500000));
+		System.out.println(jake.getBaseSalary());
 	}
 
 }
